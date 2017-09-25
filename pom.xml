@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<mybatis-generator.version>1.3.5</mybatis-generator.version>
+	</properties>
+
+	<groupId>com.gulucat</groupId>
+	<artifactId>generator-plugins</artifactId>
+	<version>1.0</version>
+	<packaging>jar</packaging>
+	<name>gulucat-code-generator-plugins</name>
+	<description>mybatis-generator-plugins for gulucat</description>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.mybatis.generator</groupId>
+			<artifactId>mybatis-generator-core</artifactId>
+			<version>${mybatis-generator.version}</version>
+		</dependency>
+	</dependencies>
+
+</project>
+
